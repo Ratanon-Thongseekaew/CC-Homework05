@@ -25,7 +25,7 @@
     border-bottom: 1px solid darkgrey;
 }
 nav{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -85,10 +85,13 @@ nav{
 .course1{
     width: 100%;
     height: 45%;
-    background-color: tomato;
-    border: 4px solid white;
+    background-color: white;
+    /* border: 4px solid red; */
     border-radius: 12px;
     margin-bottom: 8px;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
 }
 .course2{
     width: 100%;
@@ -98,18 +101,77 @@ nav{
     border-radius: 12px;
 }
 
+
 .shopping-info:first-child{
     font-size: 1.5rem;
-        font-weight: 600px;
+    font-weight: 600px;
 }
 .mini-wrapper{
     display: flex;
     align-items: center;
 }
+.headline1{
+    height: 10%;
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+}
+/* Course 1 Setting */
 .google-doc{
     display: flex;
     flex-direction: row;
-    width: 300px;
-    height: 100px;
-    background-color: rgb(128, 123, 123);
+    width: 30%;
+    height: 75%;
+    /* background-color: rgb(128, 123, 123); */
+}
+.google-doc img{
+    width: 100%;
+}
+.doc-text{
+    /* border: 1px solid red; */
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 24px;
+}
+/* Google Slide Setting */
+.google-slide{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 75%;
+    /* background-color: rgb(128, 123, 123); */
+}
+.google-slide img{
+    width: 100%;
+}
+
+
+
+
+
+/* Dot Setting */
+.dot{
+    display: flex;
+    gap: 6px;
+}
+.dot div{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(150, 240, 168);
+    border-radius: 50%;
+    display: flex;
+}
+/* Select Bar Setting */
+select {
+    border: none;
+}
+/* Bin Logo Setting */
+.bin{
+    width: 8%;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    padding: 4px;
 }

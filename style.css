@@ -45,6 +45,7 @@ nav{
 .info img{
     width: 24px;
 }
+
 .logo{
     width: 12vw;
     /* background-color: red; */
@@ -292,5 +293,4 @@ cursor: pointer;
     color:rgb(150, 240, 168);
     font-weight: 600;
     font-size:2rem ;
-    /* text-shadow: 2px 1px 4px #000000; */
 }
